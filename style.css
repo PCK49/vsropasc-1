@@ -11,13 +11,17 @@
   flex-direction: column;
 }
 .container.front {
-  height: 100px;
+  height: 200px;
   width: 100%;
   background-color:#0074ff;
+  justify-content: center;
+  align-items: center; 
 }
 .container.instructions {
-  height: 400px;
+  height: 200px;
   width: 100%;
+  justify-content: center;
+  align-items: center; 
 }
 .container.controls {
   display: flex;
