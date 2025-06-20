@@ -11,12 +11,12 @@
   flex-direction: column;
 }
 .container.front {
-  height: 200px;
+  height: 100px;
   width: 100%;
   background-color:#0074ff;
 }
 .container.instructions {
-  height: 200px;
+  height: 400px;
   width: 100%;
 }
 .container.controls {
