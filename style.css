@@ -21,6 +21,12 @@
   height: 200px;
   width: 100%;
 }
+.container.controls {
+  flex-direction: row;
+  width: 100%;
+  gap: 20px;
+  margin-top:50px;
+}
 sub {
   font-family: 'Comfortaa', sans-serif;
   color: black;
@@ -39,4 +45,30 @@ p {
   color: black;
   font-size: 20px;
   margin: 5px;
+}
+.button {
+  font-family: 'Comfortaa', sans-serif;
+  color: white;
+  padding: 10px;
+  width:400px;
+  height:100px;
+  transition: background-color 0.5s ease;
+}
+.button.rock {
+  background-color: #0074ff;
+}
+.button.paper {
+  background-color: #bd1111;
+}
+.button.scissors {
+  background-color: #ffc400;
+}
+.button.rock:hover {
+  background-color: #005fcc;
+}
+.button.paper:hover {
+  background-color: #9a0d0d;
+}
+.button.scissors:hover {
+  background-color: #e0a800;
 }
